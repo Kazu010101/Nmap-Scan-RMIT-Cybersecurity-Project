@@ -43,5 +43,5 @@ Once verified that both machines could ping each other, the following nmap scan 
 
 ## Result
 
-The most important information from the nmap scan is that there are 3 open TCP ports, which are 135, 139, and 445. This indicates that the host is running a file sharing service such as SMB protocol, which can be further exploited by the attacker.
+The most important information from the nmap scan is that there are 3 open TCP ports, which are 135, 139, and 445. Considering that the target also uses Windows 10 OS, these information suggest that the host is running a file sharing service such as SMB protocol, which can be further exploited by the attacker.
 
