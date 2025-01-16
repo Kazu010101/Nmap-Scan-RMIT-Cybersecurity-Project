@@ -45,3 +45,9 @@ Once verified that both machines could ping each other, the following nmap scan 
 
 The most important information from the nmap scan is that there are 3 open TCP ports, which are 135, 139, and 445. Considering that the target also uses Windows 10 OS, these information suggest that the host is running a file sharing service such as SMB protocol, which can be further exploited by the attacker.
 
+## Mitigation
+
+- The Office Network needs to be subnetted into at least two subnets, each seperately for the internal staff and the guest.
+- Additional security tools such as IPS and firewalls are required to protect internal staff network from malicious traffic originiating from outside and guest network.
+- Additions of network devices such as pfSense Router is required so that ACL can be set up to prevent the flow of traffic from guest network entering the internal staff network.
+
