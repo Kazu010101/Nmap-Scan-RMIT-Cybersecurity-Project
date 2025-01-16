@@ -50,4 +50,5 @@ The most important information from the nmap scan is that there are 3 open TCP p
 - The Office Network needs to be subnetted into at least two subnets, each seperately for the internal staff and the guest.
 - Additional security tools such as IPS and firewalls are required to protect internal staff network from malicious traffic originiating from outside and guest network.
 - Additions of network devices such as pfSense Router is required so that ACL can be set up to prevent the flow of traffic from guest network entering the internal staff network.
+- Turn on the Windows Firewall
 
