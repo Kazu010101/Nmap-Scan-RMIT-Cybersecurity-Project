@@ -1,5 +1,5 @@
 # Nmap-Scan-RMIT-Cybersecurity-Project
-One of the red teaming activities for my RMIT Cybersecurity Project
+One of the Red teaming labs from my [RMIT Cybersecurity Project](https://github.com/Kazu010101/RMIT-Cybersecurity-Project/blob/main/README.md)
 
 ## Objective
 
